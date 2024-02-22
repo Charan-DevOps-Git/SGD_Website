@@ -1,10 +1,3 @@
-/**
-* Template Name: PhotoFolio
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -170,5 +163,27 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     aos_init();
   });
+
+  // Typing Effect
+  const text = "Hi, I'm P Venkateswara Rao"; // Text to be typed
+        const typingSpan = document.getElementById("typingSpan");
+        let i = 0;
+
+        function typeText() {
+            if (i < text.length) {
+                typingSpan.innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typeText, 150); // Adjust the typing speed (milliseconds)
+            } else {
+                // Text has been fully typed, clear and restart the loop
+                setTimeout(() => {
+                    typingSpan.innerHTML = '';
+                    i = 0;
+                    typeText();
+                }, 2000); // Delay before restarting (adjust as needed)
+            }
+        }
+
+        typeText(); // Start the typing effect
 
 });
