@@ -1276,3 +1276,11 @@ h6 {
 .footer .credits a {
   color: var(--color-primary);
 }
+
+.services .service-item i{
+  margin: 0 auto;
+}
+
+.services .service-item h4 {
+  text-align: center;
+}

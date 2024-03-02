@@ -1,9 +1,9 @@
 Every Page - navbar
 
-Index - Gallery
-
-about - testimonals
+about - testimonals - picutes and profession
 
 Gallery - update everything
 
-Services - update everything
+Services - testimonals
+
+contact - form - visme & zaper update if necessary
