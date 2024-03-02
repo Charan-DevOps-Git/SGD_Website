@@ -287,7 +287,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 50px;
   margin-right: 8px;
 }
 
@@ -321,11 +321,11 @@ h6 {
 
 .header .header-social-links a {
   color: rgba(255, 255, 255, 0.5);
-  padding-left: 15px;
+  padding-left: 20px;
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 18 px;
 }
 
 .header .header-social-links a:hover {
@@ -352,6 +352,7 @@ h6 {
     display: flex;
     list-style: none;
     align-items: center;
+    
   }
 
   .navbar li {
@@ -372,6 +373,7 @@ h6 {
     color: rgba(255, 255, 255, 0.5);
     white-space: nowrap;
     transition: 0.3s;
+    font-size: 15px;
   }
 
   .navbar a i,
@@ -701,7 +703,7 @@ h6 {
 # Pricing Section
 --------------------------------------------------------------*/
 .gallery {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .gallery .gallery-item {
@@ -1136,6 +1138,10 @@ h6 {
   height: 44px;
 }
 
+.contact .php-email-form ::placeholder{
+  color: #a6a6a6; 
+}
+
 .contact .php-email-form textarea {
   padding: 10px 12px;
 }
@@ -1177,6 +1183,9 @@ h6 {
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
+  background-image: url('../img/5708252.jpg');
+  margin-top: 85px;
+  
 }
 
 .hero .col-lg-6{
@@ -1266,4 +1275,12 @@ h6 {
 
 .footer .credits a {
   color: var(--color-primary);
+}
+
+.services .service-item i{
+  margin: 0 auto;
+}
+
+.services .service-item h4 {
+  text-align: center;
 }
